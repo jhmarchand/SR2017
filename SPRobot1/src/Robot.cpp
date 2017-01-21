@@ -14,6 +14,7 @@ public:
 		chooser.AddObject(autoNameCustom, autoNameCustom);
 		chooser.AddObject("testAuto", "testAuto");
 		chooser.AddObject("testAuto2", "testAuto2");
+		chooser.AddObject("fromhere","fromHere";)
 		frc::SmartDashboard::PutData("Auto Modes", &chooser);
 	}
 
